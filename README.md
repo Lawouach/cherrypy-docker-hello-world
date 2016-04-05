@@ -10,17 +10,23 @@ Run it
 
 Run it as follows:
 
+```
 $ docker run --name cherrypy -d -p 8080:8080 lawouach/cherrypy-hello-world
+```
 
 You can point your browser to http://locahost:8080/
 
 You can view the logs like this:
 
+```
 $ docker logs cherrypy
+```
 
 Finally you can stop the server as follows:
 
+```
 $ docker stop cherrypy
+```
 
 
 Build it
@@ -28,4 +34,6 @@ Build it
 
 You may rebuild the image:
 
-$ docker build -t <MYREPO>/<IMAGE_NAME> .
+```
+$ docker build -t MYREPO/IMAGE_NAME .
+```
